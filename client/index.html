@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <script type="text/javascript" src="https://cdn.bootcss.com/zepto/1.2.0/zepto.js"></script>
+  <script type="text/javascript" src="./zepto-fx.js"></script>
+  <script type="text/javascript" src="./index.js"></script>
+</head>
+<body>
+  <div class="page-main">hahah</div>
+</body>
+
+<script type="text/javascript">
+  PullToReload({
+    $scrollContainer: $('.page-main'),
+    $pullDownEle: $('body'),
+    canPullDown: function() {
+      return true;
+    },
+    onPullEnd: function(cb) {
+      setTimeout(function() {
+        cb && cb();
+      }, 2000);
+    }
+  });
+</script>
+</html>

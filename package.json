@@ -1,0 +1,22 @@
+{
+  "name": "pull-to-reload",
+  "version": "1.0.0",
+  "description": "``` var PullToReload = require('pull-to-reload.js');",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zilong-thu/pull-to-reload.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zilong-thu/pull-to-reload.js/issues"
+  },
+  "homepage": "https://github.com/zilong-thu/pull-to-reload.js#readme",
+  "dependencies": {
+    "nunjucks": "^3.0.1"
+  }
+}
